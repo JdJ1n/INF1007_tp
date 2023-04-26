@@ -89,12 +89,6 @@ public class Storage {
             case "Commande":
                 Factory.addCommande(words[1], words[2], words[3], words[4], words[5], words[6], words[7], words[8]);
                 break;
-            case "Prepose":
-                break;
-            case "Manager":
-                break;
-            case "Gestionnaire":
-                break;
             default:
                 break;
         }
