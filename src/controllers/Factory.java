@@ -32,6 +32,7 @@ public class Factory {
 		return new Commande(idCmd, cli, veh, status, stringToDate(date1), stringToDate(date2), 0, 200);
 	}
 
+	//Cette méthode génère une nouvelle instance de client sur la base des paramètres fournis et renvoie les informations suivantes
 	public static Client getClient(int id, String nom, String prenom, String adresse, String numtele,
 			String numpermis, String numcartes, String status, String info, double dette) {
 		return new Client(id, nom, prenom, adresse, numtele, numpermis, numcartes, status, info,
@@ -54,6 +55,7 @@ public class Factory {
 		Control.addCmd(cmd);
 	}
 
+	//Cette méthode ajoute un client correspondant à la liste des clients de la classe de contrôle sur la base de la fourniture de plusieurs paramètres de type String.
 	public static void addClient(String id, String nom, String prenom, String adresse, String numtele,
 			String numpermis, String numcartes, String status, String info, String dette) {
 		Client cli = new Client(Integer.parseInt(id), nom, prenom, adresse, numtele, numpermis, numcartes, status, info,

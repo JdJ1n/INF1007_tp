@@ -77,6 +77,9 @@ public class Storage {
 
     }
 
+    // La chaîne de caractères est ajoutée à la classe Control par le biais de
+    // différentes méthodes de la classe Factory en tant que paramètres différents
+    // en fonction du premier tableau de chaînes de caractères.
     public static void lineToData(String[] words) {
         switch (words[0]) {
             case "Vehicule":
