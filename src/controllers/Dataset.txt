@@ -1,0 +1,21 @@
+Vehicule,1035,100000,Retraite,4,Audi,2018 A4,Simple
+Vehicule,1268,20000,Entretien,4,Audi,2018 A4,Simple
+Vehicule,2142,50000,Disponible,4,BMW,2022 M5,Prestige
+Vehicule,2860,80000,Disponible,4,BMW,2022 M5,Prestige
+Vehicule,3036,10000,Occupee,4,Ford,2019 F-350,Utilitaire
+Vehicule,3537,23492,Occupee,4,Ford,2019 F-350,Utilitaire
+Vehicule,3638,23492,Disponible,4,Ford,2019 F-350,Utilitaire
+Vehicule,3836,25687,Disponible,4,Ford,2019 F-350,Utilitaire
+Vehicule,1220,8000,Disponible,5,Tesla,2023 M3,Ultilitaire
+Vehicule,816,123120,Retraite,5,Tesla,2023 M3,Ultilitaire
+Vehicule,1111,2000,Disponible,5,Mclaren,720S,Utilitaire
+Client,1007,Hamel,Louis,3038R,(819)514-4545,L5843-300483-92,4540 7862 2654 5633,Ordinaire, ,0.0
+Client,1082,Badri,Mourad,3064R,(819)453-2314,L5843-603215-31,4540 6321 0204 5681,Ordinaire, ,0.0
+Client,1097,Biskri,Ismail,3049R,(819)469-2347,L2043-663845-12,4540 8462 6311 2015,Loue, ,0.0
+Client,1215,Faghihi,Usef,3063R,(819)376-5011,L8203-203845-54,4540 8896 4711 3208,Retard, ,0.0
+Client,1284,Toure,Fadel,3068R,(819)376-3728,L8523-803885-94,4540 8156 4162 8158,Ordinaire, ,0.0
+Client,9999,Tony,Stark,1038M,(873)-255-9715,1111111,1111 1111 1111 1111,Oridaire,Null,0.0
+Commande,1001,1007,2860,Fini,2023-04-03,2023-05-06,500,75.0
+Commande,1002,1097,3036,En cours,2023-04-01,2023-05-12,0,200.0
+Commande,1003,1215,3537,Retard,2023-04-01,2023-04-01,0,200.0
+Commande,1004,1284,3638,Fini,2023-04-01,2023-04-01,50,64.5
